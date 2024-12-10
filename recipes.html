@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Sushi Recipes</title>
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script> 
+
+    <style>
+        body {
+           background-color: #edc1b8;
+            font-family: 'Comic Sans MS';
+            background-image: url(makesushi.png);
+            background-size: cover;
+            background-position: center;
+            font-family: font-family: Helvetica, Arial, sans-serif;
+        }
+    </style>
+</head>
+
+
+
+<body>
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-sm navbar-light" style="background-color: salmon;">
+        <div class="container-fluid p-2">
+            <div class="navbar-brand">
+                <a href="index.html"> 
+                    <img class="rounded-circle" src="sushicutie.png" alt="Logo" width="50px" height="50px"> 
+                </a>
+                <p style="font-size: 20px; font-weight: bolder; color: white; font-family: 'Meiryo', 'MS Gothic'">Sofushi</p>
+            </div>
+
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav me-auto" style="font-size: 20px; font-weight: bold;">
+                    <li class="nav-item"> 
+                        <a class="nav-link" href="index.html">Welcome</a>
+                    </li>
+                    <li class="nav-item"> 
+                        <a class="nav-link" href="recipes.html">Recipes</a>
+                    </li>
+                    <li class="nav-item"> 
+                        <a class="nav-link" href="forms.html">Build Your Own Sushi</a>
+                    </li>
+                </ul>
+
+                <form class="d-flex">
+                    <input class="form-control" type="text" placeholder="Questions?" aria-label="Search">
+                    <button class="btn btn-dark" type="button">Search</button> 
+                </form>
+            </div>  
+        </div>
+    </nav>
+    <br>
+
+
+    <h1 class="text-center">Our Famous Sushi Recipes</h1>
+
+    <!-- Sushi Containers (First Row) -->
+    <div class="row" style="gap: 20px; padding: 0 50px; margin-top: 20px;">
+        <div class="col container bg-white d-flex flex-column p-3" style="width: 45%;">
+            <p class="container" style="background-color: salmon; font-size: 30px; margin: 0;">California Maki</p>
+            <div class="d-flex align-items-center">
+                <img class="rounded-circle" src="califmaki.png" alt="califmaki" width="50%" style="margin-right: 10px;">
+                <p style="font-size: 28px; margin: 0;">The well-loved California maki is a sushi roll with rice, seaweed, imitation crab, avocado, and cucumber.</p>
+            </div>
+            <form>
+               <a href="calimaki.html" class="btn btn-dark float-end" role="button">View Recipe</a>
+            </form>
+        </div>
+
+        <div class="col container bg-white d-flex flex-column p-3" style="width: 45%;">
+            <p class="container" style="background-color: orange; font-size: 30px; margin: 0;">Salmon Nigiri</p>
+            <div class="d-flex align-items-center">
+                <img class="img-thumbnail" src="nigiri.jpg" alt="nigiri" width="40%" style="margin-right: 10px;">
+                <p style="font-size: 27px; margin: 0;">Salmon Nigiri is a type of sushi that combines a pillow of vinegared rice with a topping of raw salmon.</p>
+            </div>
+            <form>
+                <a href="nigiri.html" class="btn btn-dark float-end" role="button">View Recipe</a>
+            </form>
+        </div>
+    </div>
+
+
+
+
+
+
+
+    <!-- Sushi Containers (Second Row) -->
+    <div class="row" style="gap: 20px; padding: 0 50px; margin-top: 20px;">
+        <div class="col container bg-white d-flex flex-column p-3" style="width: 45%;">
+            <p class="container" style="background-color: yellowgreen; font-size: 30px; margin: 0;">Temaki Sushi</p>
+            <div class="d-flex align-items-center">
+                <img class="img-thumbnail" src="temaki.jpg" alt="temaki" width="50%" style="margin-right: 10px;">
+                <p style="font-size: 28px; margin: 0;">A Temaki hand roll consists of a large seaweed cone stuffed with rice, fish, and other sushi fillings.</p>
+            </div>
+            <form>
+                 <a href="temaki.html" class="btn btn-dark float-end" role="button">View Recipe</a>
+            </form>
+        </div>
+
+        <div class="col container bg-white d-flex flex-column p-3" style="width: 45%;">
+            <p class="container" style="background-color: yellow; font-size: 30px; margin: 0;">Uramaki Sushi</p>
+            <div class="d-flex align-items-center">
+                <img class="rounded-circle" src="uramaki.png" alt="uramaki" width="50%" style="margin-right: 10px;">
+                <p style="font-size: 30px; margin: 0;">Uramaki sushi is rolled sushi with rice on the outside and nori on the inside.</p>
+            </div>
+            <form>
+                 <a href="uramaki.html" class="btn btn-dark float-end" role="button">View Recipe</a>
+
+            </form>
+        </div>
+    </div>
+    <br><br>
+
+
+
+
+
+
+
+    <h1 class="text-center">Our Maki Specialties</h1>
+
+    <!-- Sushi Containers (Third Row) -->
+    <div class="row" style="gap: 20px; padding: 0 50px; margin-top: 20px;">
+        <div class="col container bg-white d-flex flex-column p-3" style="width: 45%;">
+            <p class="container" style="background-color: lightsalmon; font-size: 30px; margin: 0;">Rainbow Maki</p>
+            <div class="d-flex align-items-center">
+                <img class="rounded-circle" src="rainbow.png" alt="rainbowmaki" width="40%" style="margin-right: 10px;">
+                <p style="font-size: 28px; margin: 0;">A colorful roll that has a "California roll" base, topped with slices of various raw fish like tuna, salmon, and yellowtail.</p>
+            </div>
+            <form>
+              <a href="rainbowmaki.html" class="btn btn-dark float-end" role="button">View Recipe</a>
+            </form>
+        </div>
+
+        <div class="col container bg-white d-flex flex-column p-3" style="width: 45%;">
+            <p class="container" style="background-color: black; color: white; font-size: 30px; margin: 0;">Dragon Maki</p>
+            <div class="d-flex align-items-center">
+                <img class="img-thumbnail" src="dragon.png" alt="dragonmaki" width="45%" style="margin-right: 10px;">
+                <p style="font-size: 27px; margin: 0;">The Dragon Roll is made with eel, avocado, cucumber, and a sweet soy glaze, topped with avocado slices (dragon scales).</p>
+            </div>
+            <form>
+                <a href="dragonmaki.html" class="btn btn-dark float-end" role="button">View Recipe</a>
+            </form>
+        </div>
+    </div>
+</body>
+</html>
